@@ -1,0 +1,16 @@
+body {
+    width: 960px;
+}
+
+#logo {
+    background-color: #4aaaa5;
+}
+
+header{
+    background-color: white;
+    width: 33%;
+}
+
+nav{
+    float: right;
+}
