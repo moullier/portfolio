@@ -1,16 +1,126 @@
 body {
     width: 960px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url("../images/greek-vase.png");
 }
 
-#logo {
-    background-color: #4aaaa5;
+
+#headerdiv{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+
 }
 
 header{
     background-color: white;
-    width: 33%;
+    width: 960px;
+    height: 74px;
+    border-style: solid;
+    border-bottom-color:#cccccc;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: white;
+
+
+    margin:20px, auto;
+
+    /* float: left; */
 }
 
+h1{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+
+}
+
+#logo {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    display: inline;
+    padding: 20px;
+    position: absolute;
+    left: 10px;
+    top: -22px;
+}
+
+
+
 nav{
+    background-color: #ffffff;
     float: right;
+    width: 40%
+    position: absolute;
+    /* top: 100px; */
+}
+
+#maincontent{
+    width: 960px;
+    align-self: center;
+
+    background-color: #ffffff;
+    border-style: solid;
+    border-color:#dddddd;
+    margin-top: 90px;
+}
+
+.sectionheading{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #4aaaa5;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+}
+
+#mypicture{
+    float: left;
+    margin: 20px;
+}
+
+footer{
+    background-color: #666666;
+
+}
+
+p{
+    margin: 20px;
+
+}
+
+ul li{
+    display: inline;
+}
+
+form{
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.forminput{
+    width: 97%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+#contact{
+    margin-left: 10px;
+
+    color: #4aaaa5;
+
+}
+
+
+
+#submitbutton{
+    background-color: #4aaaa5;
+    color: #ffffff;
+
+    padding: .5em;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+   }
 }

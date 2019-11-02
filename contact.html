@@ -8,29 +8,40 @@
     <title>Maria Francis-Moullier - Contact Me</title>
 </head>
 <body>
-    <header>
-        <h1 id="logo">Maria Francis-Moullier</h1>
-        
-        <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>     
-    </header>
-
-    <h1 id="contact">Contact Me</h1>
-
-    <div id="contactform">
-
-        <form>
-            Name<br>
-            <input type="text" name="name" value="John Smith"><br>
-            Email<br>
-            <input type="text" name="email" value="example@gmail.com"><br><br>
-            <input type="submit" value="Submit">
-        </form>
-
+    <div id="headerdiv">
+        <header>
+            <h1 id="logo">Maria Francis-Moullier</h1>
+    
+                <nav>
+                    <br>
+                    <a href="index.html">About</a>&nbsp;&nbsp;|&nbsp;
+                    <a href="portfolio.html">Portfolio</a>&nbsp;&nbsp;|&nbsp;
+                    <a href="contact.html">Contact</a>
+                </nav>
+    
+        </header>
     </div>
+
+
+    <section id="maincontent">
+        <div id="contactdiv">
+            <h1 class="sectionheading">Contact</h1>
+        </div>
+
+        <div id="contactform">
+
+            <form>
+                Name<br>
+                <input class="forminput" type="text" name="name" value="John Smith"><br>
+                Email<br>
+                <input class="forminput" type="text" name="email" value="example@gmail.com"><br>
+                Message
+                <textarea class="forminput" rows="12" name="comment" form="usrform"></textarea><br>
+                <button id="submitbutton">Submit</button>
+            </form>
+
+        </div>
+    </section>
 
     <footer>
             Copyright &copy;
