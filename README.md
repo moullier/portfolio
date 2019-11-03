@@ -14,7 +14,7 @@ Tutorial referenced: "How TO - Position Text Over an Image" at https://www.w3sch
 
 MIT License
 
-Copyright (c) [2019] [Maria Francis-Moullier]
+Copyright (c) 2019 Maria Francis-Moullier
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
