@@ -1,3 +1,24 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .content {
+    min-height: 100%;
+  }
+  .content-inside {
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+  .footer {
+    width:100%;
+    height: 42px;
+    margin-top: -50px;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    color: #cccccc;
+  }
+
 body {
     width: 960px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -76,13 +97,15 @@ nav{
 
 #mypicture{
     float: left;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-
+/*
 footer{
     background-color: #666666;
-
+    border-top: 8px solid #4aaaa5;
 }
+*/
 
 p{
     margin: 20px;
@@ -105,6 +128,8 @@ form{
 
 }
 
+
+
 #contact{
     margin-left: 10px;
 
@@ -124,3 +149,43 @@ form{
     border: none;
    }
 }
+
+figure{
+    position: relative;
+
+}
+
+.figcaption{
+    background-color: #4aaaa5;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+    display: ;
+    z-index: 2;
+}
+
+
+
+.container {
+    position: relative;
+}
+  
+.center {
+    position: absolute;
+    left: 0;
+    top: 70%;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+  
+img{ 
+    width: 200px;
+    height: auto;
+}
+
